@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_deviceName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/oneBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/twoBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/threeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/fourBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fiveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/sixBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/tenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/elevenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/twelveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="12" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/thirteenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="13" />
+
+            <Button
+                android:id="@+id/fourteenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="14" />
+
+            <Button
+                android:id="@+id/fifteenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="15" />
+
+            <Button
+                android:id="@+id/sixteenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+                android:onClick="buttonHandler"
+                android:text="16" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonToRecycleView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="180dp"
+        android:onClick="recycleViewOpener"
+        android:text="Távirányító kiválasztása"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonToRecycleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
