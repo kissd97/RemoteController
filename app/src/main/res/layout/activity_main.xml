@@ -8,9 +8,9 @@
 
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="192dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/textView_deviceName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +28,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="1" />
 
@@ -39,6 +40,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="2" />
 
@@ -50,6 +52,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="3" />
 
@@ -61,6 +64,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="4" />
         </TableRow>
@@ -77,6 +81,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="5" />
 
@@ -88,6 +93,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="6" />
 
@@ -99,6 +105,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="7" />
 
@@ -110,6 +117,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="8" />
         </TableRow>
@@ -126,6 +134,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="9" />
 
@@ -137,6 +146,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="10" />
 
@@ -148,6 +158,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="11" />
 
@@ -159,6 +170,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="12" />
         </TableRow>
@@ -175,6 +187,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="13" />
 
@@ -186,6 +199,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="14" />
 
@@ -197,6 +211,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="15" />
 
@@ -208,6 +223,7 @@
                 android:insetTop="10dp"
                 android:insetRight="5dp"
                 android:insetBottom="10dp"
+                android:maxWidth="25dp"
                 android:onClick="buttonHandler"
                 android:text="16" />
 

@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
                             int[] btn = new int[invertTmp.length];
                             for (int j = 0; j < invertTmp.length; j++) {
+                                System.out.println(btn[j]);
                                 btn[j] = Integer.parseInt(invertTmp[j]);
                             }
                             btns.add(btn);
